@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+:root{
+    --Pacifico: "Pacifico", cursive;
+}
+
+body{
+    background-color: #F7ECDE;
+}
+
+hr{
+    border-bottom: 1px dashed black;
+    border-top: none;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+h1{
+    
+    background-color: rgb(207, 114, 8);
+    color: white;
+    padding: 5px 30px;
+    font-family: var(--Pacifico);
+    border-radius: 15px;
+    transition: background-color 1s , color 1s  ;
+}
+
+h1:hover{
+    background-color:  rgba(207, 114, 8, 0.527) ;
+    color: black;
+}
+
+h3,i{
+    background: linear-gradient(90deg, rgba(20,19,40,1) 0%, rgba(214,66,8,1) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6{
+    letter-spacing: 2px;
+}
+
+.form-control:focus {
+    border-color: #d5d807;
+    background-color: #FFFFFF;
+    box-shadow:  0 1px 3px #e4e72e, 0 0 3px #d5d807;
+  }
+
+
+/* .form-control:focus {
+    border-color: #07d818;
+    background-color: #FFFFFF;
+    box-shadow:  0 1px 3px #07d818, 0 0 3px #07d818;
+  } */
+
+
+
