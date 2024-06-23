@@ -3,7 +3,7 @@ var websiteUrl = document.getElementById('url')
 var submit = document.getElementById('submit')
 var tabelBody = document.getElementById('tabelBody')
 var stylecss = document.querySelectorAll('.form-control:focus')
-var bookmarkList ;
+var bookmarkList =[] ;
 
 
 if(localStorage.getItem("bookmarkList" == null)){
